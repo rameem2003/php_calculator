@@ -35,7 +35,7 @@
         }
 
         else{
-            echo "ভালো হয়ে যাও মাসুদ !! ";
+            echo "You must fillup two input fields";
         }
     }
 
