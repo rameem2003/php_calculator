@@ -26,7 +26,7 @@
     
                 case "div":
                     $div = $a / $b;
-                    echo "The divition of {$a} / {$b} is {$div}";
+                    echo "The division of {$a} / {$b} is {$div}";
                     break;
 
                 default:

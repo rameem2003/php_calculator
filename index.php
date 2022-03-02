@@ -27,7 +27,7 @@
 
             <input type="submit" name="submit" value="Run >>>">
 
-            <p class="output"> <?php include "function.php";  ?> </p>
+            <p class="output"> <?php include "./function.php";  ?> </p>
         </form>
     </section>
 
