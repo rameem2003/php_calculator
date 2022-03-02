@@ -35,7 +35,7 @@
         }
 
         else{
-            echo "You must fillup two input fields";
+            echo "Valo hoye ";
         }
     }
 
