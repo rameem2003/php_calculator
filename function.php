@@ -35,7 +35,7 @@
         }
 
         else{
-            echo "Valo hoye ";
+            echo "ভালো হয়ে যাও মাসুদ !!";
         }
     }
 
