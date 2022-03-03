@@ -14,10 +14,13 @@
         <form action="" method="POST">
             <h1>PHP Calculator</h1>
 
-            <input type="number" name="f_num" id="" placeholder="Enter the first numner: ">
-            <input type="number" name="s_num" id="" placeholder="Enter the second number: ">
 
+            <div class="input-area">
+                <input type="number" name="f_num" id="" placeholder="First number: ">
+                <input type="number" name="s_num" id="" placeholder="Second number: ">
+            </div>
 
+            
             <select name="op" id="">
                 <option value="add">Addition</option>
                 <option value="sub">Submission</option>
@@ -33,7 +36,7 @@
 
 
     <footer>
-        <span>&copy; Mahmood Hassan Rameem.</span>
+        <span>Developed by: &copy; Mahmood Hassan Rameem.</span>
     </footer>
 </body>
 </html>

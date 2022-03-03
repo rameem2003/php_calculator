@@ -11,15 +11,17 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    background-image: linear-gradient(150deg, blue, green);
+    /* background-image: linear-gradient(150deg, blue, green); */
+
+    background-color: blueviolet;
 }
 /* default css end */
 
 
 /* main body */
 #calculator{
-    width: 500px;
-    background-color: #ddd;
+    width: 550px;
+    background-color: #151D3B;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -37,12 +39,26 @@ body{
 
 #calculator input{
     width: 100%;
-    padding: 20px 15px;
+    padding: 15px 15px;
     border-radius: 8px;
     outline: none;
     font-size: 25px;
     margin: 10px 0;
     text-align: center;
+    border: none;
+}
+
+#calculator input:nth-child(1){
+    margin-right: 10px;
+}
+
+#calculator input:nth-child(2){
+    margin-left: 10px;
+}
+
+#calculator .input-area{
+    display: flex;
+    justify-content: space-between;
 }
 
 #calculator input[type="submit"]{
@@ -55,9 +71,11 @@ body{
     color: white;
 }
 
+
+
 #calculator select{
     width: 100%;
-    padding: 20px 15px;
+    padding: 15px 15px;
     border-radius: 8px;
     outline: none;
     font-size: 25px;
@@ -66,6 +84,7 @@ body{
 }
 
 #calculator .output{
+    color: #ddd;
     font-size: 20px;
     font-family: sans-serif;
     margin: 20px 0;
@@ -76,12 +95,12 @@ body{
 /* footer */
 footer{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 10px;
+    right: 10px;
     background-color: white;
     padding: 10px;
-    width: 250px;
     text-align: center;
+    border-radius: 8px;
 }
 
 footer span{
