@@ -37,6 +37,12 @@ body{
     border-radius: 8px;
 }
 
+#calculator .sub-title{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
 #calculator input{
     width: 100%;
     padding: 15px 15px;

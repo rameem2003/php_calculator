@@ -14,6 +14,8 @@
         <form action="" method="POST">
             <h1>PHP Calculator</h1>
 
+            <p class="sub-title">Calculate as your wish!</p>
+
 
             <div class="input-area">
                 <input type="number" name="f_num" id="" placeholder="First number: ">
