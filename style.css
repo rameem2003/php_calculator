@@ -41,6 +41,7 @@ body{
     font-family: sans-serif;
     font-size: 25px;
     color: white;
+    margin: 20px 0;
 }
 
 #calculator input{
